@@ -1,0 +1,11 @@
+Model Information:
+* title:	Glare
+* source:	https://sketchfab.com/3d-models/glare-e4e0e8acd73c4297ad7cf1471ee528ec
+* author:	tropicc (https://sketchfab.com/tropicc)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Glare" (https://sketchfab.com/3d-models/glare-e4e0e8acd73c4297ad7cf1471ee528ec) by tropicc (https://sketchfab.com/tropicc) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

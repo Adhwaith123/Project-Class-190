@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+    <script src="./component/objects.js"></script>
+</head>
+
+<body>
+
+    <a-scene id="scene" background="color: #000000">
+        <a-assets>
+            <a-assets-item
+            id="steve" 
+            src="./steve/scene.gltf">
+            </a-assets-item>
+            <a-assets-item
+            id="glare" 
+            src="./assets/glare/scene.gltf">
+            </a-assets-item>
+            <a-assets-item
+            id="cow" 
+            src="./assets/minecraft_-_cow/scene.gltf">
+            </a-assets-item>
+            <a-assets-item
+            id="pig" 
+            src="./assets/minecraft_-_pig/scene.gltf">
+            </a-assets-item>
+            <a-assets-item
+            id="zombie" 
+            src="./zombie/scene.gltf">
+            </a-assets-item>
+
+
+            
+        </a-assets>
+        
+        <a-entity id="environment" environment="preset: forest; skyType:gradient; lighting:point">
+        </a-entity>
+
+        <a-entity gltf-model="#pig" id="pig1" position="1 0.5 15" scale="0.05 0.05 0.05" rotation="180 180 180">
+        </a-entity>
+        <a-entity gltf-model="#cow" id="cow1" position="5 0.7 15" scale="0.04 0.04 0.04" rotation="180 190 180"
+        animation="property: position; to: 1 0 5; dur: 10000" light="type: directional; color: #FFF; intensity: 0.6">
+        <!-- <a-entity gltf-model="#cow" id="cow2" position="5 0.7 15" scale="0.04 0.04 0.04" rotation="180 190 180"
+        animation="property: position; to: 1 0 5; dur: 10000"> -->
+        </a-entity>
+        <a-entity gltf-model="#glare" id="glare1" position="5 0.7 15" scale="0.5 0.5 0.5" rotation="180 180 180"
+        animation="property: position; to: 1 10 5;  dur: 10000">
+        </a-entity>
+        <a-entity objects="object1">
+        </a-entity>
+     
+        
+      
+            <a-camera
+        position="1 1 20">
+        
+       
+        </a-camera>
+
+
+    </a-scene>
+</body>
+
+</html>
